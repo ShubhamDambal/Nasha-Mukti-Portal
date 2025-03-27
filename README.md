@@ -1,58 +1,33 @@
-Project Title: NashaMukti - De-Addiction Support Platform
-📌 Project Description
-      NashaMukti is a MERN stack web application designed to support individuals in their de-addiction and recovery journey. This platform provides users with event 
-      management, resource sharing, and community engagement features, enabling them to find and participate in de-addiction programs.
+# NashaMukti - De-Addiction Support Platform
 
-🚀 Features
-      ✅ User Authentication – Secure login/signup system.
-      ✅ Event Management – Create, view, and delete events.
-      ✅ Cloudinary Integration – Upload and manage event images.
-      ✅ MongoDB Database – Store user and event information efficiently.
-      ✅ Responsive UI – Optimized for mobile and desktop use.
-      ✅ REST API Backend – Built with Node.js and Express.js.
+NashaMukti is a full-stack web application built using the **MERN stack** (MongoDB, Express.js, React.js, and Node.js) to provide support and resources for individuals struggling with addiction. Users can browse and create events related to de-addiction programs, upload images, and interact with the platform.
 
-🛠️ Tech Stack
-Frontend: React.js, React Router, Context API, CSS/Tailwind
+## 🌟 Features
 
-Backend: Node.js, Express.js, MongoDB
+✅ **User Authentication** (Sign up, Login)  
+✅ **Event Management** (Create, View, Delete Events)  
+✅ **Cloudinary Image Uploads** (For storing event images)  
+✅ **MongoDB Database** (Stores users, events)  
+✅ **RESTful API** (Backend built with Express.js)  
+✅ **Responsive UI** (Ensures a mobile-friendly experience)  
 
-Database: MongoDB Atlas
+---
 
-Storage: Cloudinary (for image uploads)
+## 📌 Tech Stack
 
-Authentication: JWT
+- **Frontend:** React.js, Axios, React Router  
+- **Backend:** Node.js, Express.js  
+- **Database:** MongoDB (with Mongoose ORM)  
+- **Cloud Storage:** Cloudinary (for storing uploaded images)  
+- **Authentication:** JWT (JSON Web Tokens)   
 
-📂 Project Setup
-      1️⃣ Clone the Repository
-            git clone https://github.com/your-username/NashaMukti.git
-            cd NashaMukti
-      2️⃣ Install Dependencies
-      For Backend:
-            cd server
-            npm install
-      For Frontend:
-            cd client
-            npm install
-      3️⃣ Set Up Environment Variables
-      Create a .env file in the server folder and add:
-            CLOUDINARY_CLOUD_NAME=your-cloud-name
-            CLOUDINARY_API_KEY=your-api-key
-            CLOUDINARY_API_SECRET=your-api-secret
-            MONGO_URI=your-mongodb-connection-string
-            PORT=5000
-      4️⃣ Run the Project
-      Start the Backend Server:
-            cd server
-            npm start
-      Start the Frontend:
-            cd client
-            npm start
-      The project will be available at http://localhost:3000.
+---
 
-💡 Future Enhancements
-      🔹 Implement user authentication with JWT.
-      🔹 Add a chat or forum feature for community discussions.
-      🔹 Improve UI/UX with better design elements.
+## 🚀 Installation & Setup
 
-📬 Contributing
-      If you’d like to contribute, feel free to fork this repo, make improvements, and submit a pull request!
+### **1️⃣ Clone the Repository**
+```bash
+git clone https://github.com/your-username/NashaMukti.git
+cd NashaMukti
+
+
