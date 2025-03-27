@@ -74,3 +74,11 @@ npm start
 ---
 
 ## **The application will now be running on http://localhost:3000/.**
+
+2️⃣ Install Dependencies
+Backend
+bash
+Copy
+Edit
+cd server
+npm install
