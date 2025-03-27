@@ -30,6 +30,7 @@ NashaMukti is a full-stack web application built using the **MERN stack** (Mongo
 git clone https://github.com/your-username/NashaMukti.git
 cd NashaMukti
 
+---
 
 ### **2️⃣ Install Dependencies**
 ### **Backend**
@@ -37,12 +38,14 @@ cd NashaMukti
 cd server
 npm install
 
+---
 
 ### **Frontend**
 ```bash
 cd client
 npm install
 
+---
 
 ### **3️⃣ Configure Environment Variables**
 Create a .env file in the server folder and add:
@@ -53,6 +56,7 @@ CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
 JWT_SECRET=your_jwt_secret
 
+---
 
 ### **4️⃣ Run the Application**
 ### **Start Backend Server**
@@ -60,15 +64,13 @@ JWT_SECRET=your_jwt_secret
 cd server
 npm start
 
+---
 
 ### **Start Frontend React App**
 ```bash
 cd client
 npm start
 
+---
 
 ## **The application will now be running on http://localhost:3000/.**
-
-
-
-
