@@ -31,3 +31,44 @@ git clone https://github.com/your-username/NashaMukti.git
 cd NashaMukti
 
 
+### **2️⃣ Install Dependencies**
+### **Backend**
+```bash
+cd server
+npm install
+
+
+### **Frontend**
+```bash
+cd client
+npm install
+
+
+### **3️⃣ Configure Environment Variables**
+Create a .env file in the server folder and add:
+```bash
+MONGO_URI=your_mongodb_connection_string
+CLOUDINARY_CLOUD_NAME=your_cloud_name
+CLOUDINARY_API_KEY=your_api_key
+CLOUDINARY_API_SECRET=your_api_secret
+JWT_SECRET=your_jwt_secret
+
+
+### **4️⃣ Run the Application**
+### **Start Backend Server**
+```bash
+cd server
+npm start
+
+
+### **Start Frontend React App**
+```bash
+cd client
+npm start
+
+
+## **The application will now be running on http://localhost:3000/.**
+
+
+
+
